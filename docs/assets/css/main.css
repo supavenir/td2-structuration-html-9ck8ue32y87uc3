@@ -5,18 +5,46 @@ body {
   margin: 2rem;
   background-color: #fdfdfd;
   color: #222;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
   font-size: 2.2rem;
   color: #0066cc;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
   font-size: 1.5rem;
   color: #333;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+  list-style-type: disc;
 }
 
 ul li {
   margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #663399;
 }
